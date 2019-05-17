@@ -170,6 +170,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     z-index: 9999;
+    padding-bottom: 5%;
 }
 
 .skills .skillContent .items{
@@ -214,7 +215,7 @@
 
 
 .contact{
-    height:50vh;
+    height:120vh;
     width: 100%;
     background:white;
 }
