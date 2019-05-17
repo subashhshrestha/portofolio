@@ -37,6 +37,7 @@
     bottom: 15%;
     height:70%;
     width: 100%;
+    font-size: 2.2vw;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
@@ -121,17 +122,6 @@
     padding-top:2%;
     padding-bottom: 2%;
    
-}
-
-.itemList{
-    max-width:40%;
-    border: 1px solid rgb(141, 52, 52);
-    border-radius: 10px;
-    margin: 2%;
-    padding:1%;
-    background: rgb(255, 255, 255);
-    box-shadow: 3px 3px 3px 2px rgb(85, 84, 84);
-
 }
 .itemList .date{
     display: flex;
@@ -228,4 +218,33 @@
     width: 100%;
     background:white;
 }
+
+
+@media(max-width: 899px) {
+  
+    .itemList{
+        width:90%;
+        border: 1px solid rgb(141, 52, 52);
+        border-radius: 10px;
+        margin: 2%;
+        padding:1%;
+        background: rgb(255, 255, 255);
+        box-shadow: 3px 3px 3px 2px rgb(85, 84, 84);
+    
+    }
+    
+  }
+  @media (min-width: 900px){
+    .itemList{
+        max-width:40%;
+        border: 1px solid rgb(141, 52, 52);
+        border-radius: 10px;
+        margin: 2%;
+        padding:1%;
+        background: rgb(255, 255, 255);
+        box-shadow: 3px 3px 3px 2px rgb(85, 84, 84);
+    
+    }
+    
+  }
 
