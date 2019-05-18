@@ -60,21 +60,21 @@ window.onscroll=function (){
     if(window.pageYOffset>=about.offsetTop && window.pageYOffset<e.offsetTop-20){
         console.log("about");
         a.style.color='white';
-        experience.style.color='rgb(165, 163, 163)';
-        skills.style.color='rgb(165, 163, 163)';
+        experience.style.color='rgb(211, 211, 211)';
+        skills.style.color='rgb(211, 211, 211)';
     }
     else if(window.pageYOffset>=e.offsetTop-30 && window.pageYOffset<=s.offsetTop-30){
         console.log("alu");
         experience.style.color='white';
-        a.style.color='rgb(165, 163, 163)';
-        skills.style.color='rgb(165, 163, 163)';
+        a.style.color='rgb(211, 211, 211)';
+        skills.style.color='rgb(211, 211, 211)';
 
     }
     else if(window.pageYOffset>=s.offsetTop-20 && window.pageYOffset<=c.offsetTop-20){
         console.log('skill')
         skills.style.color='white';
-        experience.style.color='rgb(165, 163, 163)';
-        a.style.color='rgb(165, 163, 163)';
+        experience.style.color='rgb(211, 211, 211)';
+        a.style.color='rgb(211, 211, 211)';
     }
     else{
         
