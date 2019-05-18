@@ -222,6 +222,9 @@
 
 
 @media(max-width: 899px) {
+    body{
+        height: 100vh;
+    }
   
     .itemList{
         width:90%;
@@ -232,6 +235,67 @@
         background: rgb(255, 255, 255);
         box-shadow: 3px 3px 3px 2px rgb(85, 84, 84);
     
+    }
+    .skills .skillContent .items{
+        display: flex;
+         align-items: center;
+         flex-direction: column;
+        background: rgba(83, 83, 83,0.8);
+        width:40%;
+        z-index: 999999;
+        padding:2%;
+        margin:2%;
+    }
+
+    .sideBar{
+        display: flex;
+        position: fixed;
+        height: 20%;
+        top: 0;
+        z-index: 99999999;
+        width: 100vw;;
+        background: rgb(13, 105, 141);
+    }
+
+    .sideBarContainer{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        top:15%;
+        bottom: 15%;
+        /* height:70%; */
+        width: 100%;
+        font-size: 2.2vw;
+        /* align-items: center; */
+        /* justify-content: space-around; */
+        /* flex-direction: column; */
+        color:rgb(165, 163, 163);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold
+    }
+    #profileImage{
+        width:15%;
+        /* height: 40%; */
+        /* height:3; */
+        border-radius: 50%;
+        border:8px solid rgba(255, 255, 255,0.3);
+    }
+    .mainContainer{
+        position: relative;
+        display: flex;
+        width: 100%;
+        top: 20%;
+        left: 0;
+        
+    }
+    .topCover{
+        min-height:10%;
+        background-image: url('./cover.png');
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 100%;
+        background-size: cover;
+        position: relative;
     }
     
   }
@@ -246,6 +310,7 @@
         box-shadow: 3px 3px 3px 2px rgb(85, 84, 84);
     
     }
+    
     
   }
 

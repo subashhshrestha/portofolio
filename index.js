@@ -57,20 +57,20 @@ skills.addEventListener('click',()=>{
 
 window.onscroll=function (){
     // console.log(window.pageYOffset,about.offsetTop);
-    if(window.pageYOffset>=about.offsetTop && window.pageYOffset<=e.offsetTop-0.00000000000000001){
+    if(window.pageYOffset>=about.offsetTop && window.pageYOffset<e.offsetTop-20){
         console.log("about");
         a.style.color='white';
         experience.style.color='rgb(165, 163, 163)';
         skills.style.color='rgb(165, 163, 163)';
     }
-    else if(window.pageYOffset>=e.offsetTop && window.pageYOffset<=s.offsetTop-0.00000000000000001){
+    else if(window.pageYOffset>=e.offsetTop-30 && window.pageYOffset<=s.offsetTop-30){
         console.log("alu");
         experience.style.color='white';
         a.style.color='rgb(165, 163, 163)';
         skills.style.color='rgb(165, 163, 163)';
 
     }
-    else if(window.pageYOffset>=s.offsetTop && window.pageYOffset<=c.offsetTop-0.00000000000000001){
+    else if(window.pageYOffset>=s.offsetTop-20 && window.pageYOffset<=c.offsetTop-20){
         console.log('skill')
         skills.style.color='white';
         experience.style.color='rgb(165, 163, 163)';
